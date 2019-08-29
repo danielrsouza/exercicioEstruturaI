@@ -10,18 +10,18 @@ public class Main {
 
         do{
             System.out.println();
-            System.out.println("Digite A - Adicionar Elemento. R - Remover Elemento. L - Limpar Matriz. M - Mostrar"
+            System.out.println("Digite A - Adicionar Carro. R - Remover Carro. L - Limpar . M - Mostrar"
                     + " S - Sair"
             );
             acao = s1.next();
             if(acao == "A") {
-                menu.adicionaElemento();
+                menu.adicionaCarro();
             } else if(acao == "R") {
-                menu.removeElemento();
+                menu.removeCarro();
             } else if(acao == "L") {
-                menu.limparMatriz();
+                menu.limparEstacionamento();
             } else if(acao == "M") {
-                menu.mostrarMatriz();
+                menu.mostrarEstacionamento();
             } else if(acao == "S") {
                 menu.sair();
             }
